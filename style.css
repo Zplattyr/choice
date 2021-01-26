@@ -1,0 +1,46 @@
+body {
+  margin: auto;
+  min-width: 960px;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  color: #222222;
+  background-color: #f2f4f6;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 0;
+  position: relative;
+  border-radius: 10px;
+  background-size: cover;
+  display: flex;justify-content: center;
+}
+html{padding: 0;display: flex; height: auto;margin: auto;justify-content: center;flex-direction: row;}
+.container{width:900px;background-color: white;display: flex;margin: auto auto;height: 300px; border-radius: 10px;margin-top: 15%;text-align: center;margin-bottom: 30px;justify-content: flex-start;
+padding-right: 400px;padding-top: 100px}
+h1{color: red;}
+.text,p{text-align: center;display: block;}
+.ssylka1{text-align: center;width: 400px;height: 150px;;margin-left: 750px;color: white;font-size: 65px;box-shadow: 2px 2px 5px 0 black;display: flex;
+justify-content: center; align-items: center;border-radius: 10px;background-color: Red;
+text-decoration: none;font-weight: bold;font-style: italic;z-index: 1; padding: 20px 150px 20px 150px;margin-left: 60px}
+.ssylka2{text-align: center;width: 400px;height: 150px;;color: white;font-size: 65px;box-shadow: 2px 2px 5px 0 black;display: flex;
+justify-content: center; align-items: center;border-radius: 10px;background-color: Blue;
+text-decoration: none;font-weight: bold;font-style: italic;padding: 20px 150px 20px 150px;margin-left: 180px}
+table {
+  border-collapse: collapse;
+  border-style: dotted;
+  margin-top: 50px;
+  visibility: hidden;
+}
+td,th{border: 3px dotted;}
+td{padding: 10px}
+.name{color: black;text-decoration: none;font-size: 19px;transition: all 0.2s ease-in-out;}
+.name:hover{opacity: .5}
+.ssylka1:hover{background-color:FireBrick;}
+.ssylka1:active{background-color:DarkRed;transform: translateY(2px);}
+.ssylka2:hover{background-color:MediumBlue;}
+.ssylka2:active{background-color:DarkBlue;transform: translateY(2px);}
+
+.visible {
+  visibility: visible;
+}
